@@ -21,8 +21,8 @@ Route::get('/informatika', function(){
 	return view("informatika");
 });
 
-Route::get('/agroindustri', function(){
-	return view("agroindustri");
+Route::get('/login', function(){
+	return view("login");
 });
 
 Route::get('/elektro', function(){
